@@ -1,0 +1,14 @@
+{
+  "name": "evans-mthombeni",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o EVANS MTHOBENI/CSS/ --recursive"  
+  },
+  "author": "Evans",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
