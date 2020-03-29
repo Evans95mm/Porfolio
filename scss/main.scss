@@ -1,5 +1,5 @@
-@import 'config';
-@import 'menu';
+@import'config';
+@import'menu';
 
 
 
@@ -12,7 +12,8 @@ html
     box-sizing:border-box ;
 }
 body {
-background: $primary-color;
+@include background;
+background:$primary-color;
 color:#fff;
 height: 100%;
 margin:0;
