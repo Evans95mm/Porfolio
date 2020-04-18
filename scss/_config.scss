@@ -1,8 +1,10 @@
-$primary-color: #444;
-$secondary-color:skyblue;
+$primary-color:#444;
+$secondary-color:#08B6CE;
 $show-home-image:true;
-$home-image: url(../img/portfolio.jpg);
-$background-opacity:0.7;
+$home-image: url(../img/portfolio.jfif);
+$background-opacity:0.8;
+   
+
 
 
 
@@ -58,12 +60,14 @@ $background-opacity:0.7;
     }
 }
 @mixin mediaLg {
-    @media screen and (max-width: 760px) and (max-width:1170px) {
+    @media screen and (min-width: 769px) and (max-width:1170px) {
         @content;
     }
 }
 @mixin mediaXl {
-    @media screen and (min-width:1170px) {
+    @media screen and (min-width:1171px) {
         @content;
     }
 }
+
+
