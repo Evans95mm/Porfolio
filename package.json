@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Responsive portfolio",
   "main": "index.js",
-  "homepage": "https://evans95mm.github.io/Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o EVANS MTHOBENI/CSS/ --recursive",
-    "deploy": "gh-pages -d EM"
+    "sass": "node-sass -w scss/ -o EM/CSS/ --recursive",
+    "deploy": "gh-pages -d EVANS MTHOMBENI "
   },
+  "homepage": "https://evans95mm.github.io/Portfolio",
   "author": "Evans",
   "license": "MIT",
   "dependencies": {
