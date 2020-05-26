@@ -11,7 +11,6 @@
     .projects {
         grid-template-columns: repeat(3,1fr);
     }
-    
 }
 //tablets & small laptops
 @include mediaMd {
